@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Helvetica+Neue&display=swap);
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    margin: 0
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    overflow: hidden;
+    position: fixed
+}
+
+.container {
+    background-image: url(/media/dbrain.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw
+}
+
+.container,
+.mainbox {
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.mainbox {
+    --border-width: 3px;
+    background-color: #262525;
+    border: 1px solid #2398f4;
+    border-radius: 15px;
+    box-shadow: 0 10px 200px 0 rgba(0, 0, 0, .5), 0 0 100px 0 rgba(0, 0, 0, .2), 0 0 50px 0 rgba(0, 0, 0, .1);
+    color: #fff;
+    flex-direction: column;
+    height: 700px;
+    position: relative;
+    width: 370px
+}
+
+.mainbox span {
+    background-image: url(/media/randomtext.gif);
+    border: 1px solid wheat;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    width: 50px
+}
+
+h1 {
+    font-family: Helvetica Neue, sans-serif;
+    margin-top: -430px
+}
+
+p {
+    font-family: Open Sans, sans-serif;
+    width: 80%
+}
+
+.options,
+p {
+    position: absolute
+}
+
+.options {
+    bottom: 50px;
+    display: flex;
+    gap: 30px
+}
+
+.options button {
+    background-color: #2398f4;
+    border: none;
+    border-radius: 5px;
+    bottom: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    left: 40px;
+    padding: 10px 20px;
+    position: absolute;
+    transition: background-color .3s ease-in-out
+}
+
+.options button:hover {
+    background-color: #0e83c9
+}
+
+.options button:focus {
+    box-shadow: 0 0 0 3px rgba(35, 152, 244, .3);
+    outline: none
+}
+
+.options button:active {
+    background-color: #0a68a5
+}
+
+.wordlimit {
+    bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica Neue, sans-serif;
+    gap: 9px;
+    position: absolute;
+    right: 0;
+    width: 150px
+}
+
+input[type=number] {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    padding: 0 10px;
+    transition: border-color .3s ease-in-out;
+    width: 70px
+}
+
+input[type=number]:focus,
+input[type=number]:hover {
+    border-color: #2398f4;
+    outline: none
+}
+
+.welcome {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    height: 200px;
+    justify-content: center;
+    position: absolute
+}
+
+.welcome h4 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0
+}
+
+.welcome h5 {
+    color: #2398f4;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0
+}
+
+@media only screen and (min-width:768px) {
+    .mainbox {
+        width: 60vh
+    }
+}
+
+/*# sourceMappingURL=main.css.map*/
