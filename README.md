@@ -41,6 +41,8 @@ Check out Textgenie in action on different devices:
 
 - 🎨 Icon taken from [icons8](https://icons8.com/)
 - [Backgournd image](https://barionleg.github.io/eo-random-text-generator/src/dbrein.jpg)
+- <img width="100" height="80" alt="image" src="https://github.com/user-attachments/assets/d3be9805-218e-49a1-9876-0ec2eea03971" />
+
 -  🎨 Backgournd image taken from [icons8](https://icons8.com/)
 - 📊 json dataset provided by gdsc srmist itself.
 - 🙌 Project assigned by [gdsc srmist](https://gdsc.community.dev/srm-institute-of-science-technology-kattankulathur/)
