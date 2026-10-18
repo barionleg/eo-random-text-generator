@@ -40,6 +40,7 @@ Check out Textgenie in action on different devices:
 ## 💡 Credits
 
 - 🎨 Icon taken from [icons8](https://icons8.com/)
+- [Backgournd image](https://barionleg.github.io/eo-random-text-generator/src/dbrein.jpg)
 -  🎨 Backgournd image taken from [icons8](https://icons8.com/)
 - 📊 json dataset provided by gdsc srmist itself.
 - 🙌 Project assigned by [gdsc srmist](https://gdsc.community.dev/srm-institute-of-science-technology-kattankulathur/)
