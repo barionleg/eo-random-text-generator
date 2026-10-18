@@ -43,13 +43,13 @@ Check out Textgenie in action on different devices:
 - [Backgournd image](https://barionleg.github.io/eo-random-text-generator/src/dbrein.jpg)
 - <img width="100" height="80" alt="image" src="https://github.com/user-attachments/assets/d3be9805-218e-49a1-9876-0ec2eea03971" />
 
--  🎨 Backgournd image taken from [icons8](https://icons8.com/)
+-  🎨 Backgournd image taken from [Paris_dbRhÄiN](https://barionleg.github.io/leaflet.control.opacity/pi.html)
 - 📊 json dataset provided by gdsc srmist itself.
 - 🙌 Project assigned by [gdsc srmist](https://gdsc.community.dev/srm-institute-of-science-technology-kattankulathur/)
 
 ## 📥 Live Demo
 
-- visit :-https://textgenie9026.netlify.app/
+# - visit : https://barionleg.github.io/eo-random-text-generator/index.html
 
 
 
